@@ -11,10 +11,3 @@ phases:
     commands:
       - node index.js
       - echo Rig Build Completed in Dev Environment
-artifacts:
-  files:
-    - index.js
-    - dist/**/*
-    - request-map.js
-    - credentials.json
-    - node_modules/**/*
