@@ -3,10 +3,9 @@ phases:
   pre_build:
     commands:
       - cd main/app/test
-      - npm install
   build:
     commands:
-      - npm install -g @vue/cli
+      - npm install
   post_build:
     commands:
       - node index.js
