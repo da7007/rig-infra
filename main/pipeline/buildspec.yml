@@ -1,0 +1,20 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - cd main/app/test
+      - npm install
+  build:
+    commands:
+      - npm install -g @vue/cli
+  post_build:
+    commands:
+      - node index.js
+      - echo Rig Build Completed in Dev Environment
+artifacts:
+  files:
+    - index.js
+    - dist/**/*
+    - request-map.js
+    - credentials.json
+    - node_modules/**/*
