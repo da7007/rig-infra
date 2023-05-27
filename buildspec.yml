@@ -6,7 +6,7 @@ phases:
     commands:
       - cd main/app/test
       - npm install
-  build:
+  post_build:
     commands:
       - node index.js
       - echo Rig Build Completed in Dev Environment
