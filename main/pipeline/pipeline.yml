@@ -16,7 +16,7 @@ Parameters:
     Default: da7007
   GitHubRepo:
     Type: String
-    Default: rig-infra
+    Default: rig-frontend
   GitHubBranch:
     Type: String
     Default: dev
