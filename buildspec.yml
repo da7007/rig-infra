@@ -10,5 +10,4 @@ phases:
       - npm install
   post_build:
     commands:
-      - node index.js
       - echo Rig Build Completed in Dev Environment
