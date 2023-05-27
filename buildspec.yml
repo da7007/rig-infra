@@ -5,6 +5,8 @@ phases:
       nodejs: 18
     commands:
       - cd main/app/test
+  build:
+    commands:
       - npm install
   post_build:
     commands:
